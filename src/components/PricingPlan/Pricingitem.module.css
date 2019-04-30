@@ -1,0 +1,28 @@
+.item {
+  box-sizing: border-box;
+  width: 270px;
+  background-color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+.icon {
+  padding-bottom: 10px;
+}
+.label {
+  color: rgb(173, 141, 141);
+}
+.capacity {
+  color: rgb(173, 141, 141);
+}
+.description {
+  color: rgb(173, 141, 141);
+}
+.price {
+  color: rgb(173, 141, 141);
+  font-size: 30px;
+}
+.button {
+  color: rgb(173, 141, 141);
+  background-color: rgb(232, 235, 65);
+  font-size: 15px;
+}

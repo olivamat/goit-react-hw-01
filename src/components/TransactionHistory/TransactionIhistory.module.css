@@ -1,0 +1,39 @@
+/* .tab {
+  border: 1px solid #ccc;
+  border-spacing: 3px;
+  color: rgb(87, 59, 18);
+  text-align: center;
+}
+.row {
+  color: #ccc;
+}*/
+.z {
+  color: rgb(221, 24, 34);
+  border-spacing: 3px;
+  width: 10px;
+}
+table {
+  overflow: hidden;
+  border: 1px solid #d3d3d3;
+  background: #fefefe;
+  width: 70%;
+  margin: 5% auto 0;
+  border-radius: 5px;
+}
+
+th,
+td {
+  padding: 18px 28px 18px;
+  text-align: center;
+}
+
+th {
+  padding-top: 22px;
+  text-shadow: 1px 1px 1px #fff;
+  background: #e8eaeb;
+}
+
+td {
+  border-top: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}

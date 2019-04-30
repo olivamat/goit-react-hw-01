@@ -1,0 +1,11 @@
+.pricingplan {
+  overflow: hidden;
+  margin: 5% auto 20px auto;
+  width: 1000px;
+  background-color: rgb(234, 235, 228);
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style: none;
+}

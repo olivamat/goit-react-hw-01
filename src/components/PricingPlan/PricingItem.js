@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Pricingitem.module.css';
 
-const PricingItem = ({ label, alt, icon, capacity, price, description }) => {
+const PricingItem = ({ label, icon, capacity, price, description }) => {
   const pricingitemClass = [styles.item];
-  const iconClass = [styles.icon];
+  // const iconClass = [styles.icon];
   const labelClass = [styles.label];
   const capacityClass = [styles.capacity];
   const descriptionClass = [styles.description];
@@ -13,7 +13,15 @@ const PricingItem = ({ label, alt, icon, capacity, price, description }) => {
 
   return (
     <div className={pricingitemClass}>
-      <img src={icon} alt={alt} className={iconClass} />
+      <i
+        style={{
+          backgroundImage: `url(${icon})`,
+          backgroundRepeat: 'no-repeat',
+          display: 'inline-flex',
+          height: 215,
+          width: 215,
+        }}
+      />
       <h2 className={labelClass}>{label}</h2>
       <p className={capacityClass}>{capacity} STORAGE</p>
       <p className={descriptionClass}>{description}</p>
@@ -25,14 +33,10 @@ const PricingItem = ({ label, alt, icon, capacity, price, description }) => {
   );
 };
 
-PricingItem.defaultProps = {
-  alt: 'product image',
-};
-
 PricingItem.propTypes = {
   label: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
-  alt: PropTypes.string,
+
   capacity: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,

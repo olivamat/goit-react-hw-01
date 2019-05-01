@@ -22,6 +22,11 @@
   font-size: 30px;
 }
 .button {
+  display: inline-flex;
+  margin: 0 4px;
+  padding: 8px 24px;
+  border: 5px;
+  border-radius: 2px;
   color: rgb(173, 141, 141);
   background-color: rgb(232, 235, 65);
   font-size: 15px;
